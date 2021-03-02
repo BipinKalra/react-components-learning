@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-const App = () => {
+const CommentDetails = () => {
   return (
     <div className="ui container comments">
       <div className="comment">
@@ -25,5 +24,3 @@ const App = () => {
     </div>
   );
 };
-
-ReactDOM.render(<App />, document.querySelector("#root"));
